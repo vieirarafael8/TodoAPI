@@ -1,0 +1,8 @@
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.csproj.AssemblyReference.cache
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.AssemblyInfoInputs.cache
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.AssemblyInfo.cs
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.csproj.CoreCompileInputs.cache
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\TodoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.RazorAssemblyInfo.cache
+C:\Users\RafaelVieira\Documents\GitHub\TodoAPI\obj\Debug\net6.0\DevotugasDaStreet.TodoAPI.RazorAssemblyInfo.cs

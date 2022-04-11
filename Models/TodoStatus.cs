@@ -1,6 +1,6 @@
 namespace DevotugasDaStreet.TodoTodo.Models
 {
-    enum Status {
+    public enum Status {
         pending,
         inprogress,
         done

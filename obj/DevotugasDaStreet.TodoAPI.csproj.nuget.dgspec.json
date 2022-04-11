@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {}
+    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {
+    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
-        "projectName": "DevotugasDaStreet.TodoTodo",
-        "projectPath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
+        "projectUniqueName": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoAPI.csproj",
+        "projectName": "DevotugasDaStreet.TodoAPI",
+        "projectPath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoAPI.csproj",
         "packagesPath": "C:\\Users\\RafaelVieira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\obj\\",
         "projectStyle": "PackageReference",
@@ -59,19 +59,9 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.8, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.1, )"
             }
           },
           "imports": [
