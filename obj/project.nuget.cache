@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvfG+8+tXOHJO0bgtxODOtBnwzQTlGM7vIE9v8Twr/pUn1rIjzejM9I1gaFZWgMieEc1LMc2KiUh7mAm6Q0VVQ==",
+  "dgSpecHash": "hLJZonxmJivwBWrtz0+9TUN0rIPjPuB1ZMaSyGmxw4fgantIFv0U/IY9mNv7kNSHAv1Yfr8PKCex5sRVvDNvWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
+  "projectFilePath": "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RafaelVieira\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RafaelVieira\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

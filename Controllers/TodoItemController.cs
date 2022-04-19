@@ -1,52 +1,52 @@
+using DevotugasDaStreet.TodoTodo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DevotugasDaStreet.TodoTodo.Models;
 using TodoApi.Models;
 
-namespace DevotugasDaStreet.TodoTodo.Controllers
+namespace TodoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TodoItemsController : ControllerBase
+    public class ToDoItemController : ControllerBase
     {
         private readonly TodoContext _context;
 
-        public TodoItemsController(TodoContext context)
+        public ToDoItemController(TodoContext context)
         {
             _context = context;
         }
 
-        // GET: api/TodoItems
+        // GET: api/ToDoItem
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
+        public async Task<ActionResult<IEnumerable<TodoItem>>> GetToDoItems()
         {
             return await _context.TodoItems.ToListAsync();
         }
 
-        // GET: api/TodoItems/5
+        // GET: api/ToDoItem/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
+        public async Task<ActionResult<TodoItem>> GetToDoItem(int id)
         {
-            var todoItem = await _context.TodoItems.FindAsync(id);
+            var toDoItemModel = await _context.TodoItems.FindAsync(id);
 
-            if (todoItem == null)
+            if (toDoItemModel == null)
             {
                 return NotFound();
             }
 
-            return todoItem;
+            return toDoItemModel;
         }
 
-        // PUT: api/TodoItems/5
+        // PUT: api/ToDoItem/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTodoItem(long id, TodoItem todoItem)
+        public async Task<IActionResult> PutToDoItem(int id, TodoItem toDoItem)
         {
-            if (id != todoItem.Id)
+            if (id != toDoItem.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(todoItem).State = EntityState.Modified;
+            _context.Entry(toDoItem).State = EntityState.Modified;
 
             try
             {
@@ -54,7 +54,7 @@ namespace DevotugasDaStreet.TodoTodo.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!TodoItemExists(id))
+                if (!ToDoItemExists(id))
                 {
                     return NotFound();
                 }
@@ -67,33 +67,33 @@ namespace DevotugasDaStreet.TodoTodo.Controllers
             return NoContent();
         }
 
-        // POST: api/TodoItems
+        // POST: api/ToDoItem
         [HttpPost]
-        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
+        public async Task<ActionResult<TodoItem>> PostToDoItem(TodoItem toDoItem)
         {
-            _context.TodoItems.Add(todoItem);
+            _context.TodoItems.Add(toDoItem);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, todoItem);
+            return CreatedAtAction("GetToDoItemModel", new { id = toDoItem.Id }, toDoItem);
         }
 
-        // DELETE: api/TodoItems/5
+        // DELETE: api/ToDoItem/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteTodoItem(long id)
+        public async Task<IActionResult> DeleteToDoItem(int id)
         {
-            var todoItem = await _context.TodoItems.FindAsync(id);
-            if (todoItem == null)
+            var toDoItemModel = await _context.TodoItems.FindAsync(id);
+            if (toDoItemModel == null)
             {
                 return NotFound();
             }
 
-            _context.TodoItems.Remove(todoItem);
+            _context.TodoItems.Remove(toDoItemModel);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool TodoItemExists(long id)
+        private bool ToDoItemExists(int id)
         {
             return _context.TodoItems.Any(e => e.Id == id);
         }

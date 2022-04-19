@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {}
+    "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {
+    "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
+        "projectUniqueName": "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
         "projectName": "DevotugasDaStreet.TodoTodo",
-        "projectPath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
+        "projectPath": "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\DevotugasDaStreet.TodoTodo.csproj",
         "packagesPath": "C:\\Users\\RafaelVieira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\obj\\",
+        "outputPath": "c:\\Users\\RafaelVieira\\Documents\\GitHub\\TodoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RafaelVieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
